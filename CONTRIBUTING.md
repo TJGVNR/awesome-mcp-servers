@@ -51,3 +51,14 @@ This list is for servers with a public GitHub repository — something you insta
 * **Clear descriptions:** Write concise and informative descriptions for each server.  Explain what the server does and what its key features are.
 
 Thank you for contributing!
+
+## Commit identity (agents and automation)
+
+All commits to this repo, including ones made by AI agents and automation, must use:
+
+```
+git config user.name "TJGVNR"
+git config user.email "TJGVNR@users.noreply.github.com"
+```
+
+i.e. `TJGVNR <TJGVNR@users.noreply.github.com>`. Do not commit under other names or emails.
