@@ -7,6 +7,10 @@ updates:
       day: "monday"
     open-pull-requests-limit: 5
     groups:
+      actions-major:
+        applies-to: version-updates
+        patterns: ["*"]
+        update-types: ["major"]
       security-updates:
         applies-to: security-updates
         patterns: ["*"]
